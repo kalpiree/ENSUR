@@ -94,7 +94,6 @@ def main():
         # Debugging line to check dataset_type
         print(f"Using dataset: {dataset}, type: {dataset_type}")
         for interaction in args.interactions:
-            #file_path = f'/Users/nitinbisht/PycharmProjects/recom/new_score_files/paper_1/{dataset.lower()}_{interaction}_data.csv'
             file_path = f'path/to/datasets/{dataset.lower()}_{interaction}_data.csv'
             df = pd.read_csv(file_path)
             dataset_type = 'explicit' if dataset in ['amazonoffice', 'movielens'] else 'implicit'
