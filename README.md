@@ -63,3 +63,32 @@ user fairness across different groups; 3) to have the minimum average set size.<
 
 <pre><code>python result_generator.py --base_folder "path_to_excel_files" --output_folder "path_to_save_plots"
 </code></pre>
+
+### Baselines
+
+To evaluate baseline performance, run the scripts located in the `baseline` folder. Detailed instructions are provided within the folder.
+
+---
+
+### New Preprocessed Datasets
+
+The preprocessed datasets include the following grouping strategies:
+
+1. **Interaction Count**:
+   - Users were split into two groups, dynamically adjusted so the minimum interaction count in the advantaged group exceeded the maximum in the disadvantaged group.
+
+2. **Age**:
+   - Users were grouped into:
+     - **Younger Users**: Age ≤ 60 years.
+     - **Older Users**: Age > 60 years.
+
+3. **Gender**:
+   - Users were grouped into binary categories:
+     - **Male**
+     - **Female**
+
+4. **Geographic Categorization**:
+   - Users were categorized by country:
+     - **Developed Countries**: USA, UK, Europe, Japan, etc.
+     - **Other Countries**
+
