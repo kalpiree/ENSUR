@@ -26,4 +26,4 @@ Use the relevant datasets from the `dataset` folder for each step.
 
 #### Baselines 3 and 4
 - Run: `ufr.py`
-- Description: Executes additional fairness-focused training.
+- Description: Executes re-ranking based fairness methods.
