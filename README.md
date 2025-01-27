@@ -1,10 +1,10 @@
 
 
-<h1>GUFR: GUARANTEED USER FAIRNESS IN RECOMMENDATION</h1>
+<h1>ENSUR: Equitable and Statistically Unbiased Recommendation</h1>
 
 <h2>Overview</h2>
 
-<p>Guaranteed User Fairness in Recommendation (GUFR)--> a novel
+<p>Equitable and Statistically Unbiased Recommendation (ENSUR)--> a novel
 and reliable framework to dynamically generate prediction sets for users across various groups, which are guaranteed 1) to include
 the ground-truth items with user-predefined high confidence/probability (e.g., 90%); 2) to ensure
 user fairness across different groups; 3) to have the minimum average set size.</p>
